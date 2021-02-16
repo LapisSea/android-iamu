@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    android:orientation="vertical"
+    tools:context=".ui.main.SettingsActivity"
+    tools:deviceIds="wear"
+    >
+
+    <ImageButton
+        android:onClick="goBack"
+        android:id="@+id/imageButton"
+        android:src="?attr/homeAsUpIndicator"
+        android:padding="6pt"
+        style="@style/Theme.IAMU.TealWrapped"
+        android:contentDescription="@string/go_back" />
+
+    <fragment
+        android:id="@+id/frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.example.iamu.ui.main.PrefsFragment"/>
+
+</LinearLayout>

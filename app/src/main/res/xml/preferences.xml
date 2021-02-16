@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/root_directory_key"
+        android:summary="This setting selects the directory within downloads"
+        android:title="Root directory" />
+
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IAMU</string>
+    <string name="SOURCES">Sources</string>
+    <string name="DOWNLOADING">Downloading</string>
+    <string name="RECENT">Recent</string>
+    <string name="DOWNLOADED">Downloaded</string>
+    <string name="copied">Copied</string>
+    <string name="could_not_open_file">Could not open file!</string>
+    <string name="downloading_information">Downloading information</string>
+    <string name="status">Status:</string>
+    <string name="get_torrent_info">Getting torrent info</string>
+    <string name="could_not_get_file_data">Could not get file data</string>
+    <string name="failed_to_download">Failed to download</string>
+    <string name="actions">Actions</string>
+    <string name="delete_torrent">Delete torrent</string>
+    <string name="download_media">Download Media</string>
+    <string name="delete_media">Delete media</string>
+    <string name="delete_everything">Delete everything</string>
+    <string name="file_thumbnail">File thumbnail</string>
+    <string name="unable_to_view_file">Unable to view this file</string>
+    <string name="open_file">Open file</string>
+    <string name="delete_file">Delete file</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+    <string name="finished">Finished</string>
+    <string name="started">Started</string>
+    <string name="go_back">Go back</string>
+</resources>

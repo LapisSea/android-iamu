@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/file_cell_width"
+    android:layout_height="@dimen/file_cell_height"
+    android:orientation="vertical"
+    android:padding="@dimen/file_cell_padding"
+
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    >
+
+    <ImageView
+        android:id="@+id/file_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/file_thumbnail" />
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="@dimen/file_cell_image_size"
+        android:layout_height="@dimen/file_cell_image_size"
+        android:textSize="@dimen/file_cell_text_size" />
+</LinearLayout>
